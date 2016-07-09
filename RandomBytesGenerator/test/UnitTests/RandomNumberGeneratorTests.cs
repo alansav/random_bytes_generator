@@ -16,14 +16,14 @@ namespace Savage
         [InlineData(8)]
         [InlineData(20)]
         [InlineData(512)]
-        public void GenerateCreatesArrayOfCorrectSize(int size)
+        public void Generate_Should_return_array_of_specified_size(int size)
         {
             var sut = RandomBytesGenerator.Generate(size);
             Assert.Equal(size, sut.Length);
         }
 
         [Fact]
-        public void GenerateCreatesDifferentSequence()
+        public void Generate_Should_return_different_array_contents_each_time()
         {
             var a = RandomBytesGenerator.Generate(10);
             var b = RandomBytesGenerator.Generate(10);
@@ -32,7 +32,7 @@ namespace Savage
         }
 
         [Fact]
-        public void GenerateAsBase64CreatesDifferentSequence()
+        public void GenerateAsBase64_Should_return_different_string_each_time()
         {
             var a = RandomBytesGenerator.GenerateAsBase64(10);
             var b = RandomBytesGenerator.GenerateAsBase64(10);
