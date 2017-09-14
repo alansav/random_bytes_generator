@@ -39,5 +39,11 @@ namespace Savage
 
             Assert.NotEqual(a, b);
         }
+
+        [Fact]
+        public void Generate_Should_throw_argument_exception_when_size_is_zero()
+        {
+            Assert.Throws<ArgumentException>(() => RandomBytesGenerator.Generate(0));
+        }
     }
 }
