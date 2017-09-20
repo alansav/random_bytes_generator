@@ -1,6 +1,6 @@
 # random_bytes_generator
 
-This project is a .NET Core class library.
+This project is a .NET Standard 2.0 class library.
 
 This project is designed to generate an array of random bytes as securely as possible.
 
