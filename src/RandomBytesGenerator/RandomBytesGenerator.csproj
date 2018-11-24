@@ -11,6 +11,11 @@
     <PackageTags>Random;Cryptography;RandomNumberGenerator;RandomBytesGenerator</PackageTags>
     <PackageId>RandomBytesGenerator</PackageId>
     <Product>Savage.RandomBytesGenerator</Product>
+    <Version>$(version)</Version>
+    <PackageVersion>$(version)</PackageVersion>
+    <AssemblyVersion>$(version)</AssemblyVersion>
+    <FileVersion>$(version)</FileVersion>
+    <InformationalVersion>$(version)</InformationalVersion>
   </PropertyGroup>
 
 </Project>
