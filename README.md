@@ -1,5 +1,7 @@
 # random_bytes_generator
 
+[![Build status](https://ci.appveyor.com/api/projects/status/i87axruw83eiagb8?svg=true)](https://ci.appveyor.com/project/alansav/random-bytes-generator)
+
 This project is a .NET Standard 2.0 class library.
 
 This project is designed to generate an array of random bytes as securely as possible.
