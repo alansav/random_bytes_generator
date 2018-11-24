@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomBytesGenerator", "RandomBytesGenerator\RandomBytesGenerator.csproj", "{60E3EA1B-F59A-4671-83A6-BCBA67B62C63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Savage.RandomBytesGenerator", "RandomBytesGenerator\RandomBytesGenerator.csproj", "{60E3EA1B-F59A-4671-83A6-BCBA67B62C63}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{1FCE1C8B-3CC9-4F00-BDB7-4C1F2923EBD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Savage.RandomBytesGenerator.UnitTests", "UnitTests\UnitTests.csproj", "{1FCE1C8B-3CC9-4F00-BDB7-4C1F2923EBD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,10 +24,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{60E3EA1B-F59A-4671-83A6-BCBA67B62C63} = {1A7CCC12-807B-4B00-905E-B0909D6C980F}
-		{1FCE1C8B-3CC9-4F00-BDB7-4C1F2923EBD4} = {281054BA-700A-46D5-9FEE-40D9A03EEFB2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5EA1345-6965-434F-B43C-4E667F38D98E}
