@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net45;net46;</TargetFrameworks>
+    <Title>Random Bytes Generator</Title>
+    <Authors>Alan Savage</Authors>
+    <Description>A class which generate an array of random bytes as securely as possible.</Description>
+    <Copyright>© 2017 Alan Savage</Copyright>
+    <PackageProjectUrl>https://github.com/alansav/random_bytes_generator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/alansav/random_bytes_generator</RepositoryUrl>
+    <PackageTags>Random;Cryptography;RandomNumberGenerator;RandomBytesGenerator</PackageTags>
+    <PackageId>RandomBytesGenerator</PackageId>
+    <Product>Savage.RandomBytesGenerator</Product>
+  </PropertyGroup>
+
+</Project>
